@@ -1,0 +1,15 @@
+username = input("Username :")
+password = input("Password :")
+if username == "Admin" and password == "7722":
+print("----- Welcome to water Shop -----")
+print("1. Coke 20 Thb")
+print("2. Drinking Water 10 Thb")
+userSelected = int(input(">>"))
+if userSelected == 1:
+rateCoke = 20
+amount = int(input("Amount : "))
+print ("result = ",rateCoke*amount ,"THB.")
+elif userSelected == 2:
+rateDrink = 10
+amount = int(input("Amount : "))
+print("result = ", rateDrinking Water * amount , "THB.")
